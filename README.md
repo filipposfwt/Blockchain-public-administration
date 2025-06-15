@@ -93,7 +93,7 @@ This project consists of a frontend built with Nuxt.js and a backend built with 
 
 ## Postman Collection
 
-A Postman collection (`postman.json`) is included in the `backend` directory. This collection contains API requests for testing the backend endpoints, including:
+A Postman collection (`Blockchain Public Sector API.postman_collection.json`) is included in the `backend` directory. This collection contains API requests for testing the backend endpoints, including:
 - User registration and login
 - Adding and managing diplomas
 - Verifying diploma authenticity
