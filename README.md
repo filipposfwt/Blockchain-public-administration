@@ -93,10 +93,18 @@ This project consists of a frontend built with Nuxt.js and a backend built with 
 
 ## Postman Collection
 
-A Postman collection (`postman.json`) is included in the `backend` directory. This collection contains API requests for testing the backend endpoints, including:
+A Postman collection (`Blockchain Public Sector API.postman_collection.json`) is included in the `backend` directory. This collection contains API requests for testing the backend endpoints, including:
 - User registration and login
 - Adding and managing diplomas
 - Verifying diploma authenticity
 - Viewing diploma details
 
 You can import this collection into Postman to quickly test the backend API.
+
+## Blockchain Folder
+
+The `blockchain` folder contains the necessary files and scripts for blockchain integration, including smart contracts and verification logic. This folder is essential for the blockchain functionality of the application.
+
+### Contents
+- `DiplomaManager.sol`: Smart contract for managing diploma records.
+- `StateRecords.sol`: Smart contract for managing state document records.
