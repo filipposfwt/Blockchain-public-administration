@@ -89,4 +89,4 @@ This project consists of a frontend built with Nuxt.js and a backend built with 
 ### Backend
 - FIREBASE_PROJECT_ID
 - FIREBASE_PRIVATE_KEY
-- FIREBASE_CLIENT_EMAIL 
+- FIREBASE_CLIENT_EMAIL
