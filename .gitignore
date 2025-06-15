@@ -1,17 +1,35 @@
-# Ignore everything in the root
-/*
+# Ignore everything
+*
 
-# But not these directories and their contents
+# But not these directories
 !backend/
 !frontend-diplomas/
 !frontend-state-documents/
+!blockchain/
 
-# Un-ignore everything inside those directories
+# Allow all files inside these directories
 !backend/**
 !frontend-diplomas/**
 !frontend-state-documents/**
+!blockchain/**
 
-# Ignore specific files in the main directories
+# Ignore OS and IDE files
+.DS_Store
+.idea/
+.vscode/
+node_modules/
+
+# Ignore build and output
+*.log
+*.zip
+*.tar.gz
+*.env
+
+# Do not ignore these
+!.gitignore
+!README.md
+
+# Ignore screenshots and zip files
 **/.DS_Store
 **/.env
 **/node_modules/
@@ -38,7 +56,6 @@ docker-commands.sh
 .dockerignore
 
 # Ignore OS generated files
-.DS_Store
 .DS_Store?
 ._*
 .Spotlight-V100
