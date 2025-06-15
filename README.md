@@ -90,3 +90,13 @@ This project consists of a frontend built with Nuxt.js and a backend built with 
 - FIREBASE_PROJECT_ID
 - FIREBASE_PRIVATE_KEY
 - FIREBASE_CLIENT_EMAIL
+
+## Postman Collection
+
+A Postman collection (`postman.json`) is included in the `backend` directory. This collection contains API requests for testing the backend endpoints, including:
+- User registration and login
+- Adding and managing diplomas
+- Verifying diploma authenticity
+- Viewing diploma details
+
+You can import this collection into Postman to quickly test the backend API.
