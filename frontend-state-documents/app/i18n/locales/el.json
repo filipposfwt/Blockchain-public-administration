@@ -1,0 +1,110 @@
+{
+    "app": {
+        "name": "Δημόσιος Τομέας Blockchain"
+    },
+    "sidebar": {
+        "home": "Αρχική",
+        "logout": "Αποσύνδεση"
+    },
+    "login": {
+        "title": "Σύνδεση",
+        "subtitle": "Συνδεθείτε για να συνεχίσετε",
+        "email": "Email",
+        "password": "Κωδικός",
+        "submit": "Σύνδεση",
+        "register": "Δημιουργία Λογαριασμού",
+        "noAccount": "Δεν έχετε λογαριασμό;",
+        "hasAccount": "Έχετε ήδη λογαριασμό;",
+        "errors": {
+            "invalidCredentials": "Μη έγκυρο email ή κωδικός",
+            "userNotFound": "Ο χρήστης δεν βρέθηκε",
+            "wrongPassword": "Λάθος κωδικός",
+            "emailInUse": "Το email χρησιμοποιείται ήδη",
+            "weakPassword": "Ο κωδικός είναι πολύ αδύναμος",
+            "invalidEmail": "Μη έγκυρη μορφή email",
+            "required": "είναι υποχρεωτικό"
+        }
+    },
+    "documents": {
+        "title": "Έγγραφα",
+        "myDocuments": "Τα Έγγραφά μου",
+        "view": "Προβολή",
+        "verify": "Επαλήθευση",
+        "add": "Προσθήκη Εγγράφου",
+        "save": "Αποθήκευση",
+        "cancel": "Ακύρωση",
+        "close": "Κλείσιμο",
+        "type": "Τύπος Εγγράφου",
+        "fullName": "Ονοματεπώνυμο",
+        "registrationNumber": "Αριθμός Εγγραφής",
+        "municipality": "Δήμος",
+        "issuedDate": "Ημερομηνία Έκδοσης",
+        "expiryDate": "Ημερομηνία Λήξης",
+        "stateHash": "Hash",
+        "recordId": "Αναγνωριστικό",
+        "actions": "Ενέργειες",
+        "verificationHash": "Hash Επαλήθευσης",
+        "verificationHashHint": "Εισάγετε τις τιμές με τη μορφή: recordId: [τιμή] hash: [τιμή]",
+        "generateRandom": "Δημιουργία Τυχαίων Δεδομένων",
+        "copyVerification": "Αντιγραφή για Επαλήθευση",
+        "copiedToClipboard": "Αντιγράφηκε στο πρόχειρο",
+        "copyError": "Αποτυχία αντιγραφής",
+        "types": {
+            "birthCertificate": "Πιστοποιητικό Γέννησης",
+            "deathCertificate": "Πιστοποιητικό Θανάτου",
+            "marriageCertificate": "Πιστοποιητικό Γάμου"
+        },
+        "fatherName": "Όνομα Πατέρα",
+        "motherName": "Όνομα Μητέρας",
+        "birthDate": "Ημερομηνία Γέννησης",
+        "birthPlace": "Τόπος Γέννησης",
+        "deathDate": "Ημερομηνία Θανάτου",
+        "deathPlace": "Τόπος Θανάτου",
+        "spouseName": "Όνομα Συζύγου",
+        "marriageDate": "Ημερομηνία Γάμου",
+        "marriagePlace": "Τόπος Γάμου",
+        "status": {
+            "verified": "Επιβεβαιωμένο",
+            "notVerified": "Μη Επιβεβαιωμένο"
+        },
+        "addSuccess": "Το έγγραφο προστέθηκε επιτυχώς",
+        "addError": "Αποτυχία προσθήκης εγγράφου",
+        "fetchError": "Αποτυχία φόρτωσης εγγράφων",
+        "logoutSuccess": "Αποσυνδέθηκετε επιτυχώς",
+        "logoutError": "Αποτυχία αποσύνδεσης",
+        "verifySuccess": "Το έγγραφο επιβεβαιώθηκε επιτυχώς",
+        "verifyError": "Αποτυχία επιβεβαίωσης εγγράφου"
+    },
+    "verifyDocument": {
+        "title": "Επιβεβαίωση Εγγράφου",
+        "status": "Κατάσταση",
+        "inputLabel": "Αναγνωριστικό και Hash",
+        "inputHint": "Επικολλήστε τις τιμές με τη μορφή: recordId: [τιμή] hash: [τιμή]",
+        "verify": "Επιβεβαίωση",
+        "cancel": "Ακύρωση",
+        "close": "Κλείσιμο",
+        "success": "Το έγγραφο επιβεβαιώθηκε επιτυχώς",
+        "error": "Αποτυχία επιβεβαίωσης εγγράφου",
+        "invalidFormat": "Μη έγκυρη μορφή. Παρακαλώ δώστε τόσο το Αναγνωριστικό όσο και το Hash",
+        "verified": "Επιβεβαιωμένο Έγγραφο"
+    },
+    "documentTypes": {
+        "authorization": "Εξουσιοδότηση",
+        "declaration": "Δήλωση"
+    },
+    "addDocument": {
+        "title": "Προσθήκη Νέου Εγγράφου",
+        "description": "Περιγραφή",
+        "file": "Αρχείο",
+        "hash": "Hash Εγγράφου",
+        "status": "Κατάσταση Επιβεβαίωσης",
+        "verified": "Επιβεβαιωμένο",
+        "notVerified": "Μη Επιβεβαιωμένο",
+        "add": "Προσθήκη Εγγράφου",
+        "cancel": "Ακύρωση",
+        "close": "Κλείσιμο",
+        "titleRequired": "Ο τίτλος είναι υποχρεωτικός",
+        "descriptionRequired": "Η περιγραφή είναι υποχρεωτική",
+        "fileRequired": "Το αρχείο είναι υποχρεωτικό"
+    }
+}

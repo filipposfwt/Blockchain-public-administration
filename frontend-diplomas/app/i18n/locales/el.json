@@ -1,0 +1,66 @@
+{
+    "title": "DMS University",
+    "auth": {
+        "login": "Είσοδος",
+        "register": "Εγγραφή",
+        "logout": "Αποσύνδεση",
+        "password": "Κωδικός",
+        "username": "Όνομα χρήστη",
+        "email": "Email",
+        "confirmPassword": "Επιβεβαίωση κωδικού",
+        "confirm": "Επιβεβαίωση",
+        "cancel": "Ακύρωση"
+    },
+    "sidebar": {
+        "home": "Αρχική",
+        "diplomas": "Διπλώματα",
+        "universities": "Πανεπιστήμια",
+        "users": "Χρήστες"      
+    },
+    "addDiploma": {
+        "title": "Προσθήκη Διπλώματος",     
+        "add": "Προσθήκη",
+        "cancel": "Ακύρωση",
+        "hash": "Hash"
+    },
+    "verifyDiploma": {
+        "title": "Επαλήθευση Διπλώματος",  
+        "verify": "Επαλήθευση",
+        "cancel": "Ακύρωση",
+        "verified": "Επιβεβαιωμένο",
+        "hash": "Hash"
+    },
+    "diplomas": {
+        "title": "Διπλώματα",
+        "add": "Προσθήκη",  
+        "verify": "Επαλήθευση",
+        "cancel": "Ακύρωση",
+        "close": "Κλείσιμο",
+        "hash": "Hash",
+        "verified": "Επιβεβαιωμένο",
+        "view": "Προβολή",  
+        "type": "Type",
+        "issuer": "Issuer",
+        "issuedDate": "Issued Date",
+        "degreeName": "Degree Name",
+        "gradePoint": "Grade Point",     
+        "holder": "Holder"
+    },
+    "users": {
+        "title": "Χρήστες",
+        "verify": "Επαλήθευση",
+        "add": "Προσθήκη",  
+        "cancel": "Ακύρωση",
+        "close": "Κλείσιμο",
+        "hash": "Hash",
+        "addDiploma": "Προσθήκη Διπλώματος",
+        "verified": "Επιβεβαιωμένο",
+        "view": "Προβολή",
+        "firstName": "Όνομα",
+        "lastName": "Επίθετο",
+        "email": "Email",
+        "phone": "Τηλέφωνο",
+        "university": "Πανεπιστήμιο",
+        "isRequired": "Απαιτείται"
+    }
+}
