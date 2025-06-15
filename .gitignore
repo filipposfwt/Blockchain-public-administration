@@ -1,14 +1,15 @@
-# Ignore everything
-*
+# Ignore everything in the root
+/*
 
-# But not these files/folders...
-!.gitignore
-!README.md
-
-# And not these directories
+# But not these directories and their contents
 !backend/
 !frontend-diplomas/
 !frontend-state-documents/
+
+# Un-ignore everything inside those directories
+!backend/**
+!frontend-diplomas/**
+!frontend-state-documents/**
 
 # Ignore specific files in the main directories
 **/.DS_Store

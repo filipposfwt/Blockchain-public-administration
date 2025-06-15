@@ -1,0 +1,114 @@
+{
+    "info": {
+      "name": "Blockchain Public Sector API",
+      "description": "Postman collection for testing the Blockchain Public Sector API endpoints.",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "Store Diploma",
+        "request": {
+          "method": "POST",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"diplomaData\": {\n    \"id\": \"12345\",\n    \"type\": \"BachelorDegree\",\n    \"issuer\": \"University of Blockchain\",\n    \"holder\": \"John Doe\",\n    \"issuedDate\": \"2025-05-27\",\n    \"expiryDate\": \"2030-05-27\",\n    \"degreeName\": \"Bachelor of Science in Computer Science\",\n    \"university\": \"University of Blockchain\",\n    \"gradePoint\": 3.9\n  },\n  \"issuerDID\": \"did:example:123456789abcdefghi\",\n  \"privateKey\": \"<YOUR_PRIVATE_KEY>\"\n}"
+          },
+          "url": {
+            "raw": "http://localhost:8080/diplomas",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "8080",
+            "path": ["diplomas"]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Verify Diploma",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:8080/diplomas/:hash",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "8080",
+            "path": ["diplomas", ":hash"],
+            "variable": [
+              {
+                "key": "hash",
+                "value": "<HASH_FROM_STORE_DIPLOMA>"
+              }
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Verify State",
+        "request": {
+          "method": "POST",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"stateHash\": \"<32_BYTE_HEX_HASH>\",\n  \"stateInfo\": \"State verification information\",\n  \"privateKey\": \"<YOUR_PRIVATE_KEY>\"\n}"
+          },
+          "url": {
+            "raw": "http://localhost:8080/states",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "8080",
+            "path": ["states"]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Get State Verification",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:8080/states/:hash",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "8080",
+            "path": ["states", ":hash"],
+            "variable": [
+              {
+                "key": "hash",
+                "value": "<HASH_FROM_VERIFY_STATE>"
+              }
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Health Check",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:8080/health",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "8080",
+            "path": ["health"]
+          }
+        },
+        "response": []
+      }
+    ]
+  }
